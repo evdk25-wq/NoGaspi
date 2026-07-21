@@ -1,0 +1,1339 @@
+{
+  "recipes": [
+    {
+      "id": "recipe_breakfast_001",
+      "title": "Oeufs Brouillés aux Fines Herbes",
+      "description": "Un petit-déjeuner simple et réconfortant. Des œufs brouillés crémeux agrémentés de fines herbes fraîches, servis sur du pain grillé beurré. Parfait pour bien commencer la journée avec une bonne portion de protéines.",
+      "mealType": "breakfast",
+      "ingredients": [
+        "3 œufs frais",
+        "2 tranches de pain complet",
+        "30g de beurre doux",
+        "1 cuillère à soupe de crème fraîche",
+        "1 cuillère à café de persil frais haché",
+        "Sel fin et poivre noir du moulin"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cassez les œufs dans un bol et battez-les légèrement avec la crème fraîche, le sel et le poivre. Réservez."
+        },
+        {
+          "order": 2,
+          "instruction": "Faites griller les tranches de pain jusqu'à ce qu'elles soient dorées et croustillantes. Beurrez-les généreusement et réservez."
+        },
+        {
+          "order": 3,
+          "instruction": "Dans une poêle antiadhésive, faites fondre la moitié du beurre à feu moyen. Versez les œufs et remuez constamment avec une spatule en bois."
+        },
+        {
+          "order": 4,
+          "instruction": "Après 3-4 minutes, lorsque les œufs commencent à prendre mais restent encore crémeux, retirez du feu. Saupoudrez de persil frais."
+        },
+        {
+          "order": 5,
+          "instruction": "Servez immédiatement les œufs brouillés sur le pain grillé beurré."
+        }
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 10,
+      "difficulty": "Facile",
+      "servings": 1,
+      "tags": ["Rapide", "Protéine", "Français", "Petit-déjeuner"]
+    },
+    {
+      "id": "recipe_breakfast_002",
+      "title": "Omelette Fromage Champignons",
+      "description": "Une omelette généreuse garnie de champignons de Paris poêlés et de fromage fondu. Une recette classique qui saura ravir petits et grands à tout moment de la journée.",
+      "mealType": "breakfast",
+      "ingredients": [
+        "3 œufs",
+        "150g de champignons de Paris",
+        "80g de fromage Emmental râpé",
+        "1 oignon blanc",
+        "20g de beurre",
+        "1 cuillère à soupe d'huile neutre",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Nettoyez les champignons avec un torchon humide et coupez-les en fines lamelles. Émincez finement l'oignon blanc."
+        },
+        {
+          "order": 2,
+          "instruction": "Dans une petite poêle, faites chauffer l'huile et le beurre. Faites revenir l'oignon pendant 2 minutes, puis ajoutez les champignons. Cuisez 8-10 minutes jusqu'à ce que l'eau se soit évaporée."
+        },
+        {
+          "order": 3,
+          "instruction": "Dans un bol, battez les œufs avec le sel et le poivre. Versez un peu de beurre dans la poêle chauffée à feu vif."
+        },
+        {
+          "order": 4,
+          "instruction": "Versez les œufs battus et laissez cuire 30 secondes sans remuer. Puis avec une spatule, ramenez délicatement les bords vers le centre."
+        },
+        {
+          "order": 5,
+          "instruction": "Quand l'omelette est presque prise, versez les champignons et le fromage râpé sur une moitié. Pliez l'omelette en deux et servez."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "difficulty": "Facile",
+      "servings": 1,
+      "tags": ["Œufs", "Fromage", "Champignons", "Français"]
+    },
+    {
+      "id": "recipe_breakfast_003",
+      "title": "Crêpes Miel et Noix",
+      "description": "Des crêpes fines et délicates, garnies de miel ambré et de noix concassées. Un petit-déjeuner gourmand et rapide qui ravira toute la famille le dimanche matin.",
+      "mealType": "breakfast",
+      "ingredients": [
+        "100g de farine",
+        "2 œufs",
+        "250ml de lait",
+        "15g de beurre fondu",
+        "1 pincée de sel",
+        "30g de miel",
+        "40g de noix concassées",
+        "Beurre pour la poêle"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Dans un bol, fouettez la farine et les œufs ensemble. Versez progressivement le lait en fouettant pour éviter les grumeaux."
+        },
+        {
+          "order": 2,
+          "instruction": "Ajoutez le beurre fondu et le sel. Laissez reposer la pâte 30 minutes à température ambiante."
+        },
+        {
+          "order": 3,
+          "instruction": "Chauffez une poêle antiadhésive à feu moyen-vif et beurrez-la légèrement. Versez une louche de pâte et inclinez pour l'étaler uniformément."
+        },
+        {
+          "order": 4,
+          "instruction": "Cuisez 1-2 minutes de chaque côté jusqu'à ce que la crêpe soit dorée. Transférez-la sur une assiette et répétez avec le reste de la pâte."
+        },
+        {
+          "order": 5,
+          "instruction": "Garnissez chaque crêpe de miel et de noix concassées. Repliez en quatre et servez tiède."
+        }
+      ],
+      "prepTimeMinutes": 35,
+      "cookTimeMinutes": 15,
+      "difficulty": "Facile",
+      "servings": 2,
+      "tags": ["Crêpes", "Miel", "Noix", "Petit-déjeuner", "Français"]
+    },
+    {
+      "id": "recipe_breakfast_004",
+      "title": "Porridge Flocons d'Avoine Fruits Rouges",
+      "description": "Un petit-déjeuner chaud et réconfortant. Des flocons d'avoine onctueux cuits dans du lait, garnis de fruits rouges frais et d'un trait de miel. Idéal les matins d'hiver pour bien commencer la journée.",
+      "mealType": "breakfast",
+      "ingredients": [
+        "50g de flocons d'avoine",
+        "200ml de lait entier",
+        "100ml d'eau",
+        "100g de fruits rouges frais",
+        "15g de miel",
+        "1 pincée de sel",
+        "5g de beurre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Dans une casserole, versez l'eau et le lait. Portez à frémissement à feu moyen-doux."
+        },
+        {
+          "order": 2,
+          "instruction": "Versez les flocons d'avoine et le sel. Remuez constamment pour éviter les grumeaux et la formation d'une croûte au fond."
+        },
+        {
+          "order": 3,
+          "instruction": "Laissez cuire 8-10 minutes en remuant régulièrement jusqu'à ce que le mélange épaississe et devienne crémeux."
+        },
+        {
+          "order": 4,
+          "instruction": "Versez le porridge dans un bol. Ajoutez un trait de beurre, puis versez le miel en filet."
+        },
+        {
+          "order": 5,
+          "instruction": "Garnissez généreusement de fruits rouges frais et servez immédiatement."
+        }
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 12,
+      "difficulty": "Facile",
+      "servings": 1,
+      "tags": ["Porridge", "Avoine", "Fruits", "Sain", "Rapide"]
+    },
+    {
+      "id": "recipe_breakfast_005",
+      "title": "Toast Avocat Œuf Poché",
+      "description": "Un petit-déjeuner trendy et savoureux. Une tranche de pain grillé croustillant garnie d'avocat écrasé et d'un œuf poché coulant. Une vraie bombe nutritionnelle et délicieuse.",
+      "mealType": "breakfast",
+      "ingredients": [
+        "2 tranches de pain complet",
+        "1 avocat mûr",
+        "2 œufs",
+        "30g de beurre",
+        "1 cuillère à soupe de vinaigre blanc",
+        "Sel et poivre",
+        "Flocons de piment optionnel"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Faites chauffer de l'eau dans une casserole avec le vinaigre blanc. Quand l'eau frémit, versez-y délicatement chaque œuf et laissez pocher 3-4 minutes."
+        },
+        {
+          "order": 2,
+          "instruction": "Grilles les tranches de pain jusqu'à ce qu'elles soient dorées. Beurrez-les généreusement."
+        },
+        {
+          "order": 3,
+          "instruction": "Coupez l'avocat en deux, retirez le noyau et écrasez-le avec une fourchette. Salez et poivrez."
+        },
+        {
+          "order": 4,
+          "instruction": "Étalez l'avocat écrasé sur les tranches de pain grillé."
+        },
+        {
+          "order": 5,
+          "instruction": "Déposez un œuf poché sur chaque toast. Salez, poivrez et saupoudrez de flocons de piment si désiré. Servez immédiatement."
+        }
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 10,
+      "difficulty": "Facile",
+      "servings": 1,
+      "tags": ["Avocat", "Œuf", "Toast", "Rapide", "Sain", "Protéines"]
+    },
+    {
+      "id": "recipe_lunch_001",
+      "title": "Salade César Poulet Grillé",
+      "description": "Une salade fraîche et complète avec du poulet grillé tendre, de la laitue croquante, des croûtons dorés et une sauce César maison crémeuse. Un vrai repas complet à midi.",
+      "mealType": "lunch",
+      "ingredients": [
+        "200g de blanc de poulet",
+        "1 laitue romaine",
+        "50g de parmesan râpé",
+        "50g de croutons",
+        "3 cuillères à soupe de mayonnaise",
+        "1 cuillère à soupe de jus de citron",
+        "1 gousse d'ail hachée",
+        "2 filets d'anchois optionnel",
+        "Sel et poivre",
+        "Huile d'olive"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Salez et poivrez les blancs de poulet. Faites chauffer un peu d'huile d'olive dans une poêle et saisissez le poulet 6-7 minutes de chaque côté jusqu'à cuisson complète."
+        },
+        {
+          "order": 2,
+          "instruction": "Réservez le poulet sur une assiette et laissez-le reposer 5 minutes avant de le découper en lamelles."
+        },
+        {
+          "order": 3,
+          "instruction": "Préparez la sauce César : mélangez la mayonnaise, le jus de citron, l'ail haché et les anchois écrasés. Assaisonnez."
+        },
+        {
+          "order": 4,
+          "instruction": "Lavez et déchirez la laitue romaine. Disposez-la dans une grande salade."
+        },
+        {
+          "order": 5,
+          "instruction": "Versez la sauce César sur la laitue et mélangez bien. Ajoutez le poulet, les croutons et le parmesan râpé. Servez immédiatement."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "difficulty": "Facile",
+      "servings": 2,
+      "tags": ["Salade", "Poulet", "Rapide", "Sain"]
+    },
+    {
+      "id": "recipe_lunch_002",
+      "title": "Sandwich Jambon Fromage Classique",
+      "description": "Le classique incontournable. Un sandwich généreux avec du jambon de qualité, du fromage fondant et des crudités fraiches. Parfait pour un repas de midi léger et satisfaisant.",
+      "mealType": "lunch",
+      "ingredients": [
+        "2 tranches de pain de mie ou pain complet",
+        "4 tranches de jambon de Paris",
+        "3 tranches de fromage Emmental ou Gouda",
+        "1 tomate",
+        "1 feuille de laitue",
+        "1 tranche d'oignon rouge",
+        "15g de beurre ou mayonnaise",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Tartinez légèrement les deux tranches de pain de beurre ou de mayonnaise."
+        },
+        {
+          "order": 2,
+          "instruction": "Lavez la tomate et coupez-la en tranches régulières. Coupez l'oignon rouge en fines rondelles."
+        },
+        {
+          "order": 3,
+          "instruction": "Sur une tranche de pain, disposez le jambon en le pliant légèrement, puis le fromage."
+        },
+        {
+          "order": 4,
+          "instruction": "Ajoutez la laitue, les tranches de tomate et les rondelles d'oignon. Salez et poivrez légèrement."
+        },
+        {
+          "order": 5,
+          "instruction": "Couvrez avec la deuxième tranche de pain. Coupez en diagonale et servez immédiatement."
+        }
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "difficulty": "Facile",
+      "servings": 1,
+      "tags": ["Sandwich", "Jambon", "Fromage", "Rapide"]
+    },
+    {
+      "id": "recipe_lunch_003",
+      "title": "Pâtes Aglio e Olio",
+      "description": "Un classique italien simple mais délicieux. Des pâtes spaghetti enrobées d'une sauce à base d'ail, d'huile d'olive extra vierge et de piment. Rapide et savoureuse.",
+      "mealType": "lunch",
+      "ingredients": [
+        "300g de spaghetti",
+        "8 gousses d'ail",
+        "100ml d'huile d'olive extra vierge",
+        "1 piment rouge frais",
+        "30g de persil frais",
+        "Sel fin",
+        "Parmesan râpé optionnel"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Portez une grande casserole d'eau salée à ébullition. Plongez les spaghetti et cuisez selon le temps indiqué sur le paquet. Égouttez en gardant un verre d'eau de cuisson."
+        },
+        {
+          "order": 2,
+          "instruction": "Pendant ce temps, tranchez finement l'ail. Coupez le piment rouge en petits anneaux en retirant les graines."
+        },
+        {
+          "order": 3,
+          "instruction": "Dans une grande poêle, versez l'huile d'olive et chauffez-la à feu doux. Ajoutez l'ail et le piment. Laissez infuser pendant 5 minutes sans laisser l'ail brunir."
+        },
+        {
+          "order": 4,
+          "instruction": "Versez les pâtes cuites dans la poêle avec l'huile. Mélangez bien en versant un peu d'eau de cuisson pour créer une sauce."
+        },
+        {
+          "order": 5,
+          "instruction": "Parsemez de persil frais haché. Servez chaud avec du parmesan râpé si désiré."
+        }
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 15,
+      "difficulty": "Facile",
+      "servings": 2,
+      "tags": ["Pâtes", "Italien", "Ail", "Rapide", "Végétarien"]
+    },
+    {
+      "id": "recipe_lunch_004",
+      "title": "Quiche Lorraine Légère",
+      "description": "Une quiche traditionnelle avec ses lardons fumés croustillants, ses œufs onctueux et sa crème fraîche. Parfaite chaude ou tiède pour un repas de midi complet.",
+      "mealType": "lunch",
+      "ingredients": [
+        "1 pâte brisée pré-faite",
+        "6 œufs",
+        "200ml de crème fraîche",
+        "150g de lardons fumés",
+        "1 oignon blanc",
+        "100g de fromage Emmental râpé",
+        "Sel et poivre",
+        "Beurre pour le moule"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Préchauffez le four à 200°C. Beurrez un moule à tarte de 26cm de diamètre et déroulez la pâte brisée dedans. Piquez le fond avec une fourchette."
+        },
+        {
+          "order": 2,
+          "instruction": "Faites revenir les lardons dans une poêle sans matière grasse jusqu'à ce qu'ils soient croustillants. Émincez finement l'oignon et faites-le revenir avec les lardons pendant 3 minutes."
+        },
+        {
+          "order": 3,
+          "instruction": "Battez les œufs avec la crème fraîche, le sel et le poivre. Versez ce mélange sur la pâte."
+        },
+        {
+          "order": 4,
+          "instruction": "Répartissez les lardons et l'oignon sur la crème d'œufs. Saupoudrez généreusement de fromage râpé."
+        },
+        {
+          "order": 5,
+          "instruction": "Enfournez pendant 35-40 minutes jusqu'à ce que la quiche soit dorée et le centre ferme. Servez tiède ou à température ambiante."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 45,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Quiche", "Lardons", "Fromage", "Français", "Repas Complet"]
+    },
+    {
+      "id": "recipe_lunch_005",
+      "title": "Buddha Bowl Asiatique",
+      "description": "Un bowl équilibré avec riz, poulet mariné, légumes croquants et sauce cacahuète crémeuse. Un déjeuner sain, coloré et gourmand qui régalera vos papilles.",
+      "mealType": "lunch",
+      "ingredients": [
+        "200g de riz basmati",
+        "150g de poulet",
+        "3 cuillères à soupe de sauce soja",
+        "1 carotte",
+        "150g de chou violet",
+        "100g de concombre",
+        "1 avocat",
+        "3 cuillères à soupe de sauce cacahuète",
+        "2 cuillères à soupe de vinaigre de riz",
+        "1 cuillère à café de miel"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cuisez le riz basmati selon les indications du paquet. Réservez."
+        },
+        {
+          "order": 2,
+          "instruction": "Coupez le poulet en dés. Marinez-le dans un mélange de sauce soja pendant 15 minutes."
+        },
+        {
+          "order": 3,
+          "instruction": "Faites cuire le poulet mariné dans une poêle chauffée à feu vif, 8-10 minutes jusqu'à cuisson complète."
+        },
+        {
+          "order": 4,
+          "instruction": "Préparez les crudités : râpez la carotte et le chou. Taillez le concombre en bâtonnets. Coupez l'avocat en tranches."
+        },
+        {
+          "order": 5,
+          "instruction": "Préparez la sauce cacahuète : mélangez la sauce cacahuète, le vinaigre de riz et le miel."
+        },
+        {
+          "order": 6,
+          "instruction": "Assemblez le bowl : riz à la base, puis poulet, carottes, chou, concombre et avocat. Versez la sauce cacahuète par-dessus et servez."
+        }
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 20,
+      "difficulty": "Moyen",
+      "servings": 2,
+      "tags": ["Bowl", "Asiatique", "Poulet", "Sain", "Équilibré"]
+    },
+    {
+      "id": "recipe_dinner_001",
+      "title": "Poulet Rôti aux Légumes",
+      "description": "Un classique intemporel : un poulet rôti doré et croustillant, entouré de pommes de terre fondantes et de légumes caramélisés. Un repas complet et réconfortant pour toute la famille.",
+      "mealType": "dinner",
+      "ingredients": [
+        "1 poulet fermier 1,2kg",
+        "500g de pommes de terre",
+        "2 carottes",
+        "1 oignon blanc",
+        "4 gousses d'ail",
+        "2 brins de thym frais",
+        "1 feuille de laurier",
+        "60g de beurre",
+        "Sel et poivre",
+        "Huile d'olive"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Préchauffez le four à 200°C. Nettoyez le poulet et patchez-le avec du papier absorbant. Salez et poivrez généreusement à l'intérieur et à l'extérieur."
+        },
+        {
+          "order": 2,
+          "instruction": "Farcissez le poulet avec l'ail écrasé, le thym et le laurier. Mettez quelques noisettes de beurre sur la peau."
+        },
+        {
+          "order": 3,
+          "instruction": "Coupez les pommes de terre en quartiers, les carottes en tronçons et l'oignon en quartiers. Disposez les légumes dans un plat à rôtir."
+        },
+        {
+          "order": 4,
+          "instruction": "Posez le poulet sur les légumes. Arrosez de huile d'olive et enfournez pour 1h30 à 2h, en arrosant régulièrement de jus."
+        },
+        {
+          "order": 5,
+          "instruction": "Le poulet est cuit quand les cuisses se détachent facilement. Servez bien chaud avec les légumes rôtis."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 120,
+      "difficulty": "Facile",
+      "servings": 4,
+      "tags": ["Poulet", "Rôti", "Légumes", "Classique", "Complet", "Dimanche"]
+    },
+    {
+      "id": "recipe_dinner_002",
+      "title": "Escalope Milanaise Riz Citron",
+      "description": "Des escalopes panées croustillantes, servies avec un riz parfumé au citron et aux légumes. Un plat simple mais délicieux qui plaît à toute la famille.",
+      "mealType": "dinner",
+      "ingredients": [
+        "4 escalopes de veau ou poulet 150g chacune",
+        "100g de farine",
+        "2 œufs",
+        "100g de chapelure",
+        "200g de riz blanc",
+        "1 citron",
+        "100g de petit pois",
+        "Beurre et huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cuisez le riz selon les indications du paquet. Une fois cuit, mélangez-le avec le zeste et le jus du citron, les petit pois, sel et poivre."
+        },
+        {
+          "order": 2,
+          "instruction": "Préparez trois assiettes : une avec la farine, une avec les œufs battus, une avec la chapelure."
+        },
+        {
+          "order": 3,
+          "instruction": "Passez chaque escalope dans la farine, puis dans l'œuf, puis dans la chapelure. Appuyez bien pour bien faire adhérer."
+        },
+        {
+          "order": 4,
+          "instruction": "Chauffez le beurre et l'huile dans une grande poêle. Faites frire les escalopes 4-5 minutes de chaque côté jusqu'à ce qu'elles soient dorées."
+        },
+        {
+          "order": 5,
+          "instruction": "Servez les escalopes chaudes avec le riz au citron."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 30,
+      "difficulty": "Facile",
+      "servings": 4,
+      "tags": ["Escalope", "Riz", "Citron", "Facile", "Rapide"]
+    },
+    {
+      "id": "recipe_dinner_003",
+      "title": "Saumon Grillé Sauce Aneth",
+      "description": "Un filet de saumon grillé parfumé, servi avec une sauce crémeuse à l'aneth et des légumes de saison. Un repas élégant et sain pour un dîner spécial.",
+      "mealType": "dinner",
+      "ingredients": [
+        "4 filets de saumon 150g chacun",
+        "200ml de crème fraîche",
+        "2 cuillères à soupe d'aneth frais haché",
+        "1 citron",
+        "2 échalotes",
+        "200g d'asperges",
+        "Beurre",
+        "Sel et poivre",
+        "Huile d'olive"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Nettoyez les asperges en cassant la partie dure. Faites-les cuire à la vapeur ou à l'eau bouillante pendant 8-10 minutes. Égouttez et réservez."
+        },
+        {
+          "order": 2,
+          "instruction": "Préparez la sauce : hachées finement les échalotes et faites-les revenir dans un peu de beurre pendant 2 minutes. Versez la crème fraîche, ajoutez l'aneth, le jus et le zeste du citron."
+        },
+        {
+          "order": 3,
+          "instruction": "Laissez la sauce mijoter doucement 5 minutes. Salez et poivrez à votre goût."
+        },
+        {
+          "order": 4,
+          "instruction": "Salez et poivrez les filets de saumon. Chauffez l'huile d'olive dans une poêle et saisissez les filets peau vers le bas, 5 minutes, puis 3 minutes de l'autre côté."
+        },
+        {
+          "order": 5,
+          "instruction": "Servez les filets de saumon entourés d'asperges et nappés de sauce à l'aneth."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Saumon", "Poisson", "Aneth", "Élégant", "Sain"]
+    },
+    {
+      "id": "recipe_dinner_004",
+      "title": "Coq au Vin Bourguignon",
+      "description": "Un grand classique de la gastronomie française. Du coq mijoté longuement dans un vin rouge de qualité avec légumes et champignons. Un plat réconfortant par excellence.",
+      "mealType": "dinner",
+      "ingredients": [
+        "1 coq de 1,8kg ou poulet fermier coupé en morceaux",
+        "750ml de vin rouge de Bourgogne",
+        "200g de champignons de Paris",
+        "150g de lardons fumés",
+        "12 petits oignons grelots",
+        "2 carottes en rondelles",
+        "3 gousses d'ail",
+        "1 bouquet garni thym laurier persil",
+        "2 cuillères à soupe de farine",
+        "Huile et beurre",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Faites revenir les lardons dans une grande cocotte en fonte. Retirez-les et réservez."
+        },
+        {
+          "order": 2,
+          "instruction": "Dans la même cocotte, faites dorer les morceaux de coq de tous les côtés. Retirez et réservez."
+        },
+        {
+          "order": 3,
+          "instruction": "Faites revenir les oignons, carottes et ail. Saupoudrez la farine, mélangez 2 minutes."
+        },
+        {
+          "order": 4,
+          "instruction": "Versez le vin rouge et raclez bien le fond de la cocotte. Remettez le coq et les lardons, ajoutez le bouquet garni."
+        },
+        {
+          "order": 5,
+          "instruction": "Couvrez et mettez au four à 160°C pendant 2h30. À mi-cuisson, ajoutez les champignons."
+        },
+        {
+          "order": 6,
+          "instruction": "Servez bien chaud avec des pâtes fraîches ou de la purée de pommes de terre."
+        }
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 180,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Coq", "Vin", "Classique", "Français", "Mijoté", "Dimanche"]
+    },
+    {
+      "id": "recipe_dinner_005",
+      "title": "Lasagne Bolognaise Maison",
+      "description": "Les vraies lasagnes à l'italienne avec une sauce Bolognaise mijotée longuement et une béchamel crémeuse. Un plat complet et savoureux pour un repas en famille.",
+      "mealType": "dinner",
+      "ingredients": [
+        "12 feuilles de pâtes à lasagne",
+        "500g de viande hachée",
+        "400g de tomates pelées concassées",
+        "200ml de lait",
+        "50g de beurre",
+        "40g de farine",
+        "1 oignon",
+        "2 gousses d'ail",
+        "100g de parmesan râpé",
+        "Sel, poivre, muscade",
+        "Huile d'olive"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Préparez la sauce Bolognaise : faites revenir l'oignon et l'ail hachés dans l'huile. Ajoutez la viande hachée et cuisez 10 minutes. Versez les tomates, salez, poivrez, puis laissez mijoter 30 minutes."
+        },
+        {
+          "order": 2,
+          "instruction": "Préparez la béchamel : faites un roux avec le beurre et la farine dans une casserole. Versez le lait progressivement en fouettant. Laissez cuire 10 minutes jusqu'à épaississement. Salez, poivrez, muscadez."
+        },
+        {
+          "order": 3,
+          "instruction": "Préchauffez le four à 180°C. Beurrez un plat à lasagne."
+        },
+        {
+          "order": 4,
+          "instruction": "Assemblez : une couche de Bolognaise, puis feuilles de pâtes, puis béchamel. Répétez jusqu'à épuisement des ingrédients, en terminant par la béchamel et du parmesan."
+        },
+        {
+          "order": 5,
+          "instruction": "Enfournez pendant 40-45 minutes jusqu'à ce que le dessus soit doré. Laissez reposer 10 minutes avant de servir."
+        }
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 90,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Lasagne", "Pâtes", "Italien", "Complet", "Famille"]
+    },
+    {
+      "id": "recipe_snack_001",
+      "title": "Hummus Maison Carottes Crudités",
+      "description": "Un hummus onctueux et savoureux maison, servi avec des bâtonnets de carottes croquantes et d'autres crudités. Un snack sain et gourmand.",
+      "mealType": "snack",
+      "ingredients": [
+        "400g de pois chiches en boîte",
+        "3 cuillères à soupe de tahini pâte de sésame",
+        "3 gousses d'ail",
+        "3 cuillères à soupe de jus de citron frais",
+        "3 cuillères à soupe d'huile d'olive",
+        "1 cuillère à café de sel",
+        "2 carottes",
+        "1 concombre",
+        "Paprika fumée optionnel"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Égouttez les pois chiches et versez-les dans un robot culinaire."
+        },
+        {
+          "order": 2,
+          "instruction": "Ajoutez le tahini, l'ail haché, le jus de citron, l'huile d'olive et le sel. Mixez jusqu'à obtenir une pâte lisse et crémeuse."
+        },
+        {
+          "order": 3,
+          "instruction": "Versez l'hummus dans un bol. Lissez la surface et versez un trait d'huile d'olive. Saupoudrez de paprika si désiré."
+        },
+        {
+          "order": 4,
+          "instruction": "Lavez les carottes et le concombre. Coupez-les en bâtonnets ou rondelles."
+        },
+        {
+          "order": 5,
+          "instruction": "Servez l'hummus entouré de bâtonnets de crudités."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": "Facile",
+      "servings": 4,
+      "tags": ["Hummus", "Crudités", "Vegan", "Sain", "Rapide"]
+    },
+    {
+      "id": "recipe_snack_002",
+      "title": "Trempette Yogurt Citron Herbes",
+      "description": "Une trempette crémeuse à base de yogurt grec, agrémentée de citron frais et d'herbes aromatiques. Parfaite avec des crudités ou des chips.",
+      "mealType": "snack",
+      "ingredients": [
+        "500g de yogurt grec nature",
+        "2 citrons zeste et jus",
+        "2 gousses d'ail",
+        "3 cuillères à soupe d'aneth frais",
+        "2 cuillères à soupe de ciboulette",
+        "1 cuillère à soupe de persil",
+        "Sel et poivre",
+        "Huile d'olive"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Versez le yogurt grec dans un bol."
+        },
+        {
+          "order": 2,
+          "instruction": "Hachez finement l'ail et mélangez-le au yogurt avec le zeste et le jus du citron."
+        },
+        {
+          "order": 3,
+          "instruction": "Ajoutez l'aneth, la ciboulette et le persil hachés finement. Mélangez bien."
+        },
+        {
+          "order": 4,
+          "instruction": "Salez et poivrez à votre goût. Versez un trait d'huile d'olive sur le dessus."
+        },
+        {
+          "order": 5,
+          "instruction": "Couvrez et réfrigérez au moins 30 minutes avant de servir avec des crudités ou des crackers."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": "Facile",
+      "servings": 6,
+      "tags": ["Trempette", "Yogurt", "Herbes", "Léger", "Sain"]
+    },
+    {
+      "id": "recipe_snack_003",
+      "title": "Trail Mix Maison Noix Fruits Secs",
+      "description": "Un mélange gourmand et énergétique de noix, fruits secs et chocolat noir. Le snack idéal pour les randos ou les petits creux de l'après-midi.",
+      "mealType": "snack",
+      "ingredients": [
+        "100g de noix de cajou",
+        "80g d'amandes nature",
+        "60g de noisettes",
+        "80g de raisins secs",
+        "80g de cranberries séchées",
+        "50g de coco râpée",
+        "100g de chocolat noir 70%",
+        "1 pincée de sel fin"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Versez les noix et noisettes dans un grand bol."
+        },
+        {
+          "order": 2,
+          "instruction": "Ajoutez les raisins secs, les cranberries et la coco râpée. Mélangez bien."
+        },
+        {
+          "order": 3,
+          "instruction": "Coupez le chocolat noir en petits éclats et ajoutez-le au mélange."
+        },
+        {
+          "order": 4,
+          "instruction": "Saupoudrez d'une pincée de sel et mélangez bien."
+        },
+        {
+          "order": 5,
+          "instruction": "Versez dans des petits sacs ou bocaux pour conserver. Se garde 2-3 semaines dans un endroit sec."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": "Facile",
+      "servings": 8,
+      "tags": ["Trail Mix", "Noix", "Fruits Secs", "Énergétique", "Portatif"]
+    },
+    {
+      "id": "recipe_snack_004",
+      "title": "Bruschetta Tomate Mozzarella Basilic",
+      "description": "Des tranches de pain grillé garnies de tomates fraîches, mozzarella et basilic. Un antipasto classique italiano parfait à l'apéritif.",
+      "mealType": "snack",
+      "ingredients": [
+        "1 baguette pain français",
+        "400g de tomates cerises",
+        "250g de mozzarella fraîche",
+        "20g de basilic frais",
+        "3 gousses d'ail",
+        "3 cuillères à soupe d'huile d'olive",
+        "1 cuillère à soupe de vinaigre balsamique",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Préchauffez le four à 200°C. Coupez la baguette en biais en tranches de 1cm."
+        },
+        {
+          "order": 2,
+          "instruction": "Disposez les tranches sur une plaque et arrosez-les de huile d'olive. Enfournez 5-7 minutes jusqu'à ce qu'elles soient dorées et croustillantes."
+        },
+        {
+          "order": 3,
+          "instruction": "Frottez chaque tranche grillée avec une gousse d'ail coupée."
+        },
+        {
+          "order": 4,
+          "instruction": "Coupez les tomates cerises en quartiers. Versez dans un bol avec le vinaigre balsamique, l'huile d'olive, sel et poivre."
+        },
+        {
+          "order": 5,
+          "instruction": "Garnissez chaque bruschetta de mozzarella déchirée et de tomates. Décorez avec du basilic frais. Servez immédiatement."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 10,
+      "difficulty": "Facile",
+      "servings": 4,
+      "tags": ["Bruschetta", "Tomate", "Mozzarella", "Italien", "Apéro"]
+    },
+    {
+      "id": "recipe_snack_005",
+      "title": "Wrap Poulet Sauce Ranch",
+      "description": "Un wrap garni de poulet grillé tendre, de laitue croquante et de sauce ranch maison. Un snack complet et savoureux à emporter.",
+      "mealType": "snack",
+      "ingredients": [
+        "2 tortillas de blé",
+        "200g de poulet mariné",
+        "1 laitue",
+        "1 tomate",
+        "1 concombre",
+        "100g de fromage râpé",
+        "150ml de sauce ranch mayonnaise herbes",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Faites cuire le poulet dans une poêle chauffée à feu vif jusqu'à cuisson complète. Coupez-le en lanières."
+        },
+        {
+          "order": 2,
+          "instruction": "Lavez et émincez finement la laitue. Coupez la tomate et le concombre en bâtonnets."
+        },
+        {
+          "order": 3,
+          "instruction": "Étalez un peu de sauce ranch au centre de chaque tortilla."
+        },
+        {
+          "order": 4,
+          "instruction": "Garnissez avec la laitue, le poulet, la tomate, le concombre et le fromage râpé."
+        },
+        {
+          "order": 5,
+          "instruction": "Roulez bien les tortillas en serrant pour former un wrap. Servez immédiatement ou enveloppé dans du papier pour un snack portatif."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 10,
+      "difficulty": "Facile",
+      "servings": 2,
+      "tags": ["Wrap", "Poulet", "Rapide", "Portatif", "Complet"]
+    },
+    {
+      "id": "recipe_soup_001",
+      "title": "Soupe Poireaux Pommes de Terre Lard",
+      "description": "Une soupe française traditionnelle, chaude et réconfortante. Des poireaux tendres, pommes de terre fondantes et lardons croustillants dans un bouillon savoureux.",
+      "mealType": "soup",
+      "ingredients": [
+        "4 poireaux moyens blanc et vert pâle",
+        "400g de pommes de terre",
+        "150g de lardons fumés",
+        "1 oignon",
+        "1 litre de bouillon de poule",
+        "100ml de crème fraîche",
+        "Beurre",
+        "Sel et poivre",
+        "Persil frais pour garnir"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Nettoyez les poireaux en enlevant les couches externes. Coupez-les en rondelles. Coupez les pommes de terre en cubes et l'oignon en petits dés."
+        },
+        {
+          "order": 2,
+          "instruction": "Faites revenir les lardons à sec dans une grande casserole jusqu'à ce qu'ils soient croustillants. Retirez-les et réservez."
+        },
+        {
+          "order": 3,
+          "instruction": "Dans la même casserole, faites revenir l'oignon dans le gras des lardons pendant 3 minutes. Ajoutez les poireaux et les pommes de terre."
+        },
+        {
+          "order": 4,
+          "instruction": "Versez le bouillon et portez à ébullition. Laissez mijoter 30 minutes jusqu'à ce que les légumes soient tendres."
+        },
+        {
+          "order": 5,
+          "instruction": "Versez la crème fraîche et remettez les lardons. Salez et poivrez. Servez chaud garnies de persil frais."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 40,
+      "difficulty": "Facile",
+      "servings": 4,
+      "tags": ["Soupe", "Poireaux", "Lard", "Français", "Réconfortant"]
+    },
+    {
+      "id": "recipe_soup_002",
+      "title": "Velouté de Tomate Frais",
+      "description": "Une soupe lisse et délicate à base de tomates fraîches et de crème. Un classique réconfortant, servi avec des croûtons dorés et du basilic frais.",
+      "mealType": "soup",
+      "ingredients": [
+        "800g de tomates fraîches",
+        "1 oignon",
+        "2 gousses d'ail",
+        "500ml de bouillon de légumes",
+        "200ml de crème fraîche",
+        "1 cuillère à soupe de miel",
+        "2 cuillères à soupe d'huile d'olive",
+        "Basilic frais",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Lavez les tomates, enlevez les cœurs et coupez-les en quartiers. Émincez l'oignon et hachez l'ail."
+        },
+        {
+          "order": 2,
+          "instruction": "Dans une grande casserole, faites revenir l'oignon et l'ail dans l'huile d'olive pendant 3 minutes."
+        },
+        {
+          "order": 3,
+          "instruction": "Ajoutez les tomates et le bouillon. Portez à ébullition et laissez mijoter 20 minutes."
+        },
+        {
+          "order": 4,
+          "instruction": "Mixez la soupe avec un mixeur plongeant jusqu'à obtenir un velouté lisse."
+        },
+        {
+          "order": 5,
+          "instruction": "Versez la crème fraîche, ajoutez le miel, le sel, le poivre et le basilic frais. Servez chaud."
+        }
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 30,
+      "difficulty": "Facile",
+      "servings": 4,
+      "tags": ["Soupe", "Tomate", "Velouté", "Frais", "Réconfortant"]
+    },
+    {
+      "id": "recipe_soup_003",
+      "title": "Crème de Champignons Forestière",
+      "description": "Une soupe crémeuse avec un mélange de champignons forestiers (chanterelles, cèpes, girolles). Un vrai délice automnal et sophistiqué.",
+      "mealType": "soup",
+      "ingredients": [
+        "600g de champignons forestiers mixtes",
+        "200ml de crème fraîche",
+        "500ml de bouillon de poule",
+        "1 oignon",
+        "2 échalotes",
+        "2 gousses d'ail",
+        "30g de beurre",
+        "1 verre de vin blanc 100ml",
+        "Thym frais",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Nettoyez délicatement les champignons avec un torchon humide. Coupez-les en morceaux. Émincez finement l'oignon et les échalotes."
+        },
+        {
+          "order": 2,
+          "instruction": "Dans une grande casserole, faites fondre le beurre. Faites revenir l'oignon et les échalotes 5 minutes."
+        },
+        {
+          "order": 3,
+          "instruction": "Ajoutez les champignons et l'ail haché. Laissez cuire 10 minutes en remuant régulièrement."
+        },
+        {
+          "order": 4,
+          "instruction": "Versez le vin blanc et laissez réduire 2 minutes. Ajoutez le bouillon et le thym. Laissez mijoter 15 minutes."
+        },
+        {
+          "order": 5,
+          "instruction": "Mixez partiellement pour garder quelques morceaux. Versez la crème fraîche. Salez et poivrez. Servez chaud."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 40,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Soupe", "Champignons", "Crème", "Automne", "Délicat"]
+    },
+    {
+      "id": "recipe_soup_004",
+      "title": "Minestrone Soupe Italienne",
+      "description": "Une soupe italienne généreuse avec légumes variés et pâtes. Un plat complet et réconfortant parfait pour les froids de l'hiver.",
+      "mealType": "soup",
+      "ingredients": [
+        "2 carottes",
+        "2 branches de céleri",
+        "1 oignon",
+        "1 zucchini",
+        "150g de haricots verts",
+        "400g de tomates pelées",
+        "100g de pâtes petites ditalini ou orzo",
+        "1 litre de bouillon de légumes",
+        "100g de parmesan râpé",
+        "Huile d'olive",
+        "Basilic",
+        "Sel et poivre"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Coupez les carottes, céleri, oignon et zucchini en petits dés. Coupez les haricots verts en segments de 2cm."
+        },
+        {
+          "order": 2,
+          "instruction": "Dans une grande casserole, chauffez l'huile d'olive et faites revenir l'oignon, carotte et céleri pendant 5 minutes."
+        },
+        {
+          "order": 3,
+          "instruction": "Ajoutez la zucchini, les haricots verts et les tomates pelées. Versez le bouillon."
+        },
+        {
+          "order": 4,
+          "instruction": "Portez à ébullition et laissez mijoter 20 minutes. Ajoutez les pâtes et laissez cuire selon le temps indiqué sur le paquet."
+        },
+        {
+          "order": 5,
+          "instruction": "Salez, poivrez et parsemez de basilic frais. Servez chaud avec du parmesan râpé."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 35,
+      "difficulty": "Facile",
+      "servings": 4,
+      "tags": ["Minestrone", "Soupe", "Italien", "Complet", "Légumes"]
+    },
+    {
+      "id": "recipe_soup_005",
+      "title": "Soupe à l'Oignon Gratinée",
+      "description": "Une soupe française classique, avec oignons dorés et caramélisés, servie avec du pain grillé et du fromage fondu. Un vrai régal réconfortant.",
+      "mealType": "soup",
+      "ingredients": [
+        "1kg d'oignons jaunes",
+        "1 litre de bouillon de boeuf",
+        "150ml de vin blanc",
+        "50g de beurre",
+        "2 cuillères à soupe d'huile d'olive",
+        "1 baguette pain français",
+        "200g de gruyère râpé",
+        "Sel et poivre",
+        "Thym"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Pelez et émincez finement les oignons. Coupez la baguette en diagonale en tranches de 1cm."
+        },
+        {
+          "order": 2,
+          "instruction": "Dans une grande casserole, chauffez le beurre et l'huile. Versez les oignons et laissez cuire 45 minutes à feu doux, en remuant régulièrement, jusqu'à ce qu'ils soient dorés et caramélisés."
+        },
+        {
+          "order": 3,
+          "instruction": "Versez le vin blanc et laissez réduire 5 minutes. Ajoutez le bouillon et le thym. Laissez mijoter 15 minutes."
+        },
+        {
+          "order": 4,
+          "instruction": "Pendant ce temps, toastez les tranches de pain au four à 200°C pendant 5 minutes. Versez la soupe dans des bols allant au four."
+        },
+        {
+          "order": 5,
+          "instruction": "Posez une tranche de pain sur chaque bol, puis parsemez généreusement de gruyère râpé. Enfournez à 220°C pendant 5-10 minutes jusqu'à ce que le fromage soit fondu et doré."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 70,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Soupe", "Oignon", "Français", "Gratinée", "Réconfortant"]
+    },
+    {
+      "id": "recipe_dessert_001",
+      "title": "Gâteau Chocolat Fondant",
+      "description": "Un gâteau au chocolat riche et fondant, avec un cœur coulant au chocolat. Le dessert parfait pour les amateurs de chocolat en quête de gourmandise.",
+      "mealType": "dessert",
+      "ingredients": [
+        "200g de chocolat noir 70%",
+        "150g de beurre",
+        "100g de sucre",
+        "4 œufs",
+        "50g de farine",
+        "1 pincée de sel",
+        "Beurre et cacao pour le moule",
+        "Sucre glace pour garnir optionnel"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Préchauffez le four à 200°C. Beurrez et poudrez de cacao un moule à gâteau."
+        },
+        {
+          "order": 2,
+          "instruction": "Cassez le chocolat en morceaux et faites-le fondre au bain-marie avec le beurre en remuant."
+        },
+        {
+          "order": 3,
+          "instruction": "Dans un bol, battez les œufs avec le sucre jusqu'à ce que le mélange pâlisse. Ajoutez le chocolat fondu."
+        },
+        {
+          "order": 4,
+          "instruction": "Tamisez la farine avec le sel et versez-la délicatement dans le mélange en pliant avec une spatule."
+        },
+        {
+          "order": 5,
+          "instruction": "Versez la pâte dans le moule et enfournez 12-15 minutes. Le gâteau doit être fondant à l'intérieur."
+        },
+        {
+          "order": 6,
+          "instruction": "Laissez refroidir 5 minutes. Saupoudrez de sucre glace et servez tiède avec une boule de glace."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 15,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Chocolat", "Gâteau", "Fondant", "Élégant", "Décadent"]
+    },
+    {
+      "id": "recipe_dessert_002",
+      "title": "Tiramisu Classique",
+      "description": "Le tiramisu authentique italien avec crème mascarpone légère, cacao et café. Un dessert raffiné et délicieux qui ravira les papilles.",
+      "mealType": "dessert",
+      "ingredients": [
+        "300g de mascarpone",
+        "100g de sucre",
+        "4 œufs séparés",
+        "300ml de café fort refroidi",
+        "3 cuillères à soupe de liqueur de café Kahlúa",
+        "24 biscuits Ladyfinger Savoiardi",
+        "30g de cacao en poudre",
+        "Cacao supplémentaire pour garnir"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Battez les jaunes d'œufs avec le sucre jusqu'à blanchissement. Incorporez délicatement le mascarpone en fouettant."
+        },
+        {
+          "order": 2,
+          "instruction": "Dans un autre bol, battez les blancs d'œufs en neige ferme. Versez-les délicatement dans la crème mascarpone en pliant."
+        },
+        {
+          "order": 3,
+          "instruction": "Mélangez le café refroidi avec la liqueur de café dans une assiette creuse."
+        },
+        {
+          "order": 4,
+          "instruction": "Trempez rapidement chaque biscuit Ladyfinger dans le mélange café et disposez-les dans un plat rectangulaire."
+        },
+        {
+          "order": 5,
+          "instruction": "Étalez la moitié de la crème mascarpone sur les biscuits. Disposez une deuxième couche de biscuits trempés."
+        },
+        {
+          "order": 6,
+          "instruction": "Couvrez avec le reste de crème. Saupoudrez généreusement de cacao. Réfrigérez au moins 4 heures avant de servir."
+        }
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 0,
+      "difficulty": "Moyen",
+      "servings": 6,
+      "tags": ["Tiramisu", "Dessert", "Italien", "Café", "Mascarpone", "Raffiné"]
+    },
+    {
+      "id": "recipe_dessert_003",
+      "title": "Panna Cotta Fruits Rouges",
+      "description": "Une panna cotta italienne délicate et crémeuse, garnie de coulis de fruits rouges. Un dessert élégant et léger parfait pour finir un repas.",
+      "mealType": "dessert",
+      "ingredients": [
+        "500ml de crème fraîche épaisse",
+        "150ml de lait",
+        "100g de sucre",
+        "2 cuillères à café d'agar-agar ou gélatine",
+        "1 gousse de vanille",
+        "300g de fruits rouges frais ou surgelés",
+        "2 cuillères à soupe de miel",
+        "Jus d'1 citron"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Versez le lait dans une casserole. Fendez la gousse de vanille en deux, grattez les graines et versez-les dans le lait. Chauffez à feu doux."
+        },
+        {
+          "order": 2,
+          "instruction": "Quand le lait commence à frémir, versez l'agar-agar en pluie en fouettant constamment. Laissez cuire 1 minute."
+        },
+        {
+          "order": 3,
+          "instruction": "Versez la crème fraîche et le sucre. Mélangez bien jusqu'à dissolution du sucre. Retirez du feu et laissez refroidir 10 minutes."
+        },
+        {
+          "order": 4,
+          "instruction": "Versez dans des verre ou ramequins. Réfrigérez au moins 4 heures jusqu'à prise."
+        },
+        {
+          "order": 5,
+          "instruction": "Préparez le coulis : mixez les fruits rouges avec le miel et le jus de citron. Versez sur chaque panna cotta et servez froid."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Panna Cotta", "Dessert", "Italien", "Fruits Rouges", "Élégant"]
+    },
+    {
+      "id": "recipe_dessert_004",
+      "title": "Crème Brûlée Vanille",
+      "description": "La crème brûlée classique avec sa vanille fraîche et son caramel croustillant à la surface. Un dessert d'exception qui impressionnera vos convives.",
+      "mealType": "dessert",
+      "ingredients": [
+        "500ml de crème fraîche épaisse",
+        "1 gousse de vanille",
+        "5 jaunes d'œufs",
+        "100g de sucre",
+        "30g de sucre cristallisé pour la croûte",
+        "Beurre pour les ramequins"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Préchauffez le four à 160°C. Beurrez 4 ramequins allant au four."
+        },
+        {
+          "order": 2,
+          "instruction": "Versez la crème dans une casserole. Fendez la gousse de vanille, grattez les graines et versez-les dans la crème avec la gousse."
+        },
+        {
+          "order": 3,
+          "instruction": "Chauffez la crème jusqu'à ce qu'elle commence à frémir. Retirez du feu et laissez infuser 15 minutes. Retirez la gousse."
+        },
+        {
+          "order": 4,
+          "instruction": "Battez les jaunes d'œufs avec le sucre jusqu'à blanchissement. Versez progressivement la crème tiède en fouettant."
+        },
+        {
+          "order": 5,
+          "instruction": "Versez le mélange dans les ramequins. Disposez-les dans un bain-marie d'eau chaude. Enfournez 40-45 minutes."
+        },
+        {
+          "order": 6,
+          "instruction": "Les crèmes doivent être fermes mais encore tremblotantes au centre. Laissez refroidir puis réfrigérez au moins 4 heures."
+        },
+        {
+          "order": 7,
+          "instruction": "Avant de servir, saupoudrez chaque crème de sucre cristallisé. Caramélisez avec une torche ou sous le gril du four."
+        }
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 50,
+      "difficulty": "Moyen",
+      "servings": 4,
+      "tags": ["Crème Brûlée", "Vanille", "Dessert", "Élégant", "Français"]
+    },
+    {
+      "id": "recipe_dessert_005",
+      "title": "Brownies Chocolat Noix",
+      "description": "Des brownies moelleux au chocolat riche, garnis de noix. Le snack chocolaté par excellence, facile à préparer et toujours apprécié.",
+      "mealType": "dessert",
+      "ingredients": [
+        "200g de chocolat noir 70%",
+        "150g de beurre",
+        "200g de sucre",
+        "2 œufs",
+        "100g de farine",
+        "1 pincée de sel",
+        "1 cuillère à café d'extrait de vanille",
+        "100g de noix concassées",
+        "Beurre pour le moule"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Préchauffez le four à 180°C. Beurrez un moule carré 20x20cm."
+        },
+        {
+          "order": 2,
+          "instruction": "Cassez le chocolat en morceaux et faites-le fondre au bain-marie avec le beurre."
+        },
+        {
+          "order": 3,
+          "instruction": "Dans un bol, battez les œufs avec le sucre jusqu'à ce que le mélange pâlisse. Versez le chocolat fondu et mélangez."
+        },
+        {
+          "order": 4,
+          "instruction": "Tamisez la farine avec le sel et versez-la délicatement en pliant. Ajoutez la vanille et les noix."
+        },
+        {
+          "order": 5,
+          "instruction": "Versez la pâte dans le moule et enfournez 25-30 minutes. Le centre doit rester moelleux."
+        },
+        {
+          "order": 6,
+          "instruction": "Laissez refroidir complètement puis coupez en carrés. Se conserve 3-4 jours dans une boîte."
+        }
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "difficulty": "Facile",
+      "servings": 12,
+      "tags": ["Brownie", "Chocolat", "Noix", "Moelleux", "Gourmand"]
+    }
+  ]
+}
