@@ -1,0 +1,18 @@
+export const colors = {
+  primary: '#D95D39',
+  primaryDark: '#C04B2A',
+  primaryLight: '#FBEBE6',
+  background: '#F8F9FA',
+  surface: '#FFFFFF',
+  textPrimary: '#1E2022',
+  textSecondary: '#6C757D',
+  textMuted: '#A0A5AA',
+  border: '#E9ECEF',
+  chipBackground: '#F1F3F5',
+  chipText: '#212529',
+  chipSelectedBackground: '#D95D39',
+  chipSelectedText: '#FFFFFF',
+  shadowColor: '#000000',
+  disabled: '#E0E0E0',
+  disabledText: '#9E9E9E',
+} as const;
