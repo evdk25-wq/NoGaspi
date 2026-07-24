@@ -7,13 +7,18 @@ import { HistoryScreen } from './src/presentation/screens/HistoryScreen';
 import { FavoritesScreen } from './src/presentation/screens/FavoritesScreen';
 import { ProfileScreen } from './src/presentation/screens/ProfileScreen';
 import { RecipesResultScreen } from './src/presentation/screens/RecipesResultScreen';
+import { LandingScreen } from './src/presentation/screens/LandingScreen';
 import { BottomMotionBar, TabType } from './src/presentation/components/BottomMotionBar';
 import { colors } from './src/core/theme';
+import { useIngredientSelection } from './src/presentation/hooks/useIngredientSelection';
 
 export default function App() {
   const [fontsLoaded] = useFonts(Ionicons.font);
   const [activeTab, setActiveTab] = useState<TabType>('search');
   const [showResults, setShowResults] = useState(false);
+  const [hasStarted, setHasStarted] = useState(false);
+  
+  const selectionHook = useIngredientSelection();
 
   if (!fontsLoaded) {
     return (
@@ -23,9 +28,21 @@ export default function App() {
     );
   }
 
+  const handleGenerate = async () => {
+    await selectionHook.generateRecipes();
+    setShowResults(true);
+  };
+
   const renderContent = () => {
     if (showResults) {
-      return <RecipesResultScreen onBack={() => setShowResults(false)} />;
+      return (
+        <RecipesResultScreen 
+          recipes={selectionHook.generatedRecipes} 
+          isLoading={selectionHook.isLoading}
+          error={selectionHook.error}
+          onBack={() => setShowResults(false)} 
+        />
+      );
     }
 
     switch (activeTab) {
@@ -37,22 +54,39 @@ export default function App() {
         return <ProfileScreen />;
       case 'search':
       default:
-        return <HomeScreen onGenerateRecipes={() => setShowResults(true)} />;
+        return (
+          <HomeScreen 
+            ingredients={selectionHook.ingredients}
+            selectedIngredients={selectionHook.selectedIngredients}
+            searchQuery={selectionHook.searchQuery}
+            onSearchChange={selectionHook.handleSearchChange}
+            onToggleIngredient={selectionHook.toggleIngredient}
+            onGenerateRecipes={handleGenerate} 
+            maxSelection={selectionHook.MAX_SELECTION}
+            isLoading={selectionHook.isLoading}
+          />
+        );
     }
   };
 
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor={colors.background} />
-      {renderContent()}
-      {!showResults && (
-        <BottomMotionBar
-          activeTab={activeTab}
-          onTabChange={(tab) => {
-            setShowResults(false);
-            setActiveTab(tab);
-          }}
-        />
+      {!hasStarted ? (
+        <LandingScreen onStart={() => setHasStarted(true)} />
+      ) : (
+        <>
+          {renderContent()}
+          {!showResults && (
+            <BottomMotionBar
+              activeTab={activeTab}
+              onTabChange={(tab) => {
+                setShowResults(false);
+                setActiveTab(tab);
+              }}
+            />
+          )}
+        </>
       )}
     </View>
   );

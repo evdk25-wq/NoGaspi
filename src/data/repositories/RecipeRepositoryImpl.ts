@@ -1,20 +1,28 @@
 import { IRecipeRepository } from '../../domain/repositories/IRecipeRepository';
 import { Recipe } from '../../domain/entities/Recipe';
-import { MOCK_RECIPES } from '../sources/mockRecipes';
+import { Platform } from 'react-native';
+
+const API_BASE_URL = 'http://192.168.129.23:8000'; // Adresse IP locale pour Expo Go
 
 export class RecipeRepositoryImpl implements IRecipeRepository {
   async generateRecipes(ingredientNames: string[]): Promise<Recipe[]> {
-    const normalizedInput = ingredientNames.map(name => name.toLowerCase().trim());
+    const response = await fetch(`${API_BASE_URL}/api/recipes/generate`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ingredients: ingredientNames }),
+    });
 
-    return MOCK_RECIPES.map(recipe => {
-      const matchingCount = recipe.ingredients.filter(ing =>
-        normalizedInput.includes(ing.toLowerCase().trim())
-      ).length;
+    if (!response.ok) {
+      throw new Error(`API Error: ${response.status}`);
+    }
 
-      return {
-        ...recipe,
-        matchingIngredientsCount: matchingCount
-      };
-    }).sort((a, b) => b.matchingIngredientsCount - a.matchingIngredientsCount);
+    const data = await response.json();
+    if (!data.success) {
+      throw new Error(data.message || 'Erreur inconnue API');
+    }
+    
+    return data.recipes || [];
   }
 }

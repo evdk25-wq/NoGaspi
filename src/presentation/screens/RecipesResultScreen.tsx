@@ -7,16 +7,20 @@ import {
   SafeAreaView,
   TouchableOpacity,
   Platform,
+  ActivityIndicator,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, spacing, typography, borderRadius, shadows } from '../../core/theme';
-import { MOCK_RECIPES } from '../../data/sources/mockRecipes';
+import { Recipe } from '../../domain/entities/Recipe';
 
 interface RecipesResultScreenProps {
   onBack: () => void;
+  recipes?: Recipe[];
+  isLoading?: boolean;
+  error?: string | null;
 }
 
-export const RecipesResultScreen: React.FC<RecipesResultScreenProps> = ({ onBack }) => {
+export const RecipesResultScreen: React.FC<RecipesResultScreenProps> = ({ onBack, recipes = [], isLoading, error }) => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.topNav}>
@@ -31,41 +35,52 @@ export const RecipesResultScreen: React.FC<RecipesResultScreenProps> = ({ onBack
         showsVerticalScrollIndicator={false}
       >
         <Text style={typography.subtitle}>
-          Recettes basées sur les ingrédients sélectionnées dans votre frigo
+          Recettes basées sur les ingrédients sélectionnés dans votre frigo
         </Text>
 
-        {MOCK_RECIPES.map(recipe => (
-          <View key={recipe.id} style={[styles.card, shadows.soft]}>
-            <View style={styles.cardHeader}>
-              <Text style={styles.cardTitle}>{recipe.title}</Text>
-              <View style={styles.badge}>
-                <Text style={styles.badgeText}>{recipe.difficulty}</Text>
-              </View>
-            </View>
-
-            <Text style={styles.cardDescription}>{recipe.description}</Text>
-
-            <View style={styles.metaRow}>
-              <View style={styles.metaItem}>
-                <Ionicons name="time-outline" size={16} color={colors.primary} />
-                <Text style={styles.metaText}>{recipe.prepTimeMinutes + recipe.cookTimeMinutes} min</Text>
-              </View>
-              <View style={styles.metaItem}>
-                <Ionicons name="checkmark-circle-outline" size={16} color={colors.primary} />
-                <Text style={styles.metaText}>
-                  {recipe.matchingIngredientsCount} / {recipe.totalIngredientsCount} ingrédients
-                </Text>
-              </View>
-            </View>
-
-            <View style={styles.divider} />
-
-            <Text style={styles.sectionHeading}>Ingrédients requises :</Text>
-            <Text style={styles.ingredientsList}>
-              {recipe.ingredients.join(', ')}
-            </Text>
+        {isLoading ? (
+          <View style={styles.centerContainer}>
+            <ActivityIndicator size="large" color={colors.primary} />
+            <Text style={styles.loadingText}>Création de vos recettes...</Text>
           </View>
-        ))}
+        ) : error ? (
+          <View style={styles.centerContainer}>
+             <Text style={styles.errorText}>{error}</Text>
+          </View>
+        ) : (
+          recipes.map(recipe => (
+            <View key={recipe.id} style={[styles.card, shadows.soft]}>
+              <View style={styles.cardHeader}>
+                <Text style={styles.cardTitle}>{recipe.title}</Text>
+                <View style={styles.badge}>
+                  <Text style={styles.badgeText}>{recipe.difficulty || 'moyen'}</Text>
+                </View>
+              </View>
+
+              <Text style={styles.cardDescription}>{recipe.description}</Text>
+
+              <View style={styles.metaRow}>
+                <View style={styles.metaItem}>
+                  <Ionicons name="time-outline" size={16} color={colors.primary} />
+                  <Text style={styles.metaText}>{(recipe.prepTimeMinutes || 10) + (recipe.cookTimeMinutes || 15)} min</Text>
+                </View>
+                <View style={styles.metaItem}>
+                  <Ionicons name="checkmark-circle-outline" size={16} color={colors.primary} />
+                  <Text style={styles.metaText}>
+                    {recipe.matchingIngredientsCount || 0} / {recipe.totalIngredientsCount || recipe.ingredients?.length || 0} ingrédients
+                  </Text>
+                </View>
+              </View>
+
+              <View style={styles.divider} />
+
+              <Text style={styles.sectionHeading}>Ingrédients requis :</Text>
+              <Text style={styles.ingredientsList}>
+                {recipe.ingredients?.join(', ')}
+              </Text>
+            </View>
+          ))
+        )}
       </ScrollView>
     </SafeAreaView>
   );
@@ -153,4 +168,20 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: colors.textSecondary,
   },
+  centerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: spacing.xl,
+  },
+  loadingText: {
+    marginTop: spacing.md,
+    fontSize: 16,
+    color: colors.textSecondary,
+  },
+  errorText: {
+    fontSize: 16,
+    color: colors.error,
+    textAlign: 'center',
+  }
 });

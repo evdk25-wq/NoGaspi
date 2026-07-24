@@ -8,7 +8,10 @@ import {
   StatusBar as RNStatusBar,
   Alert,
   Platform,
+  Image,
+  TouchableOpacity,
 } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { colors, spacing, typography } from '../../core/theme';
 import { ProfileOptionCard } from '../components/ProfileOptionCard';
 
@@ -42,6 +45,20 @@ export const ProfileScreen: React.FC = () => {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
+
+        <View style={styles.profileHeaderSection}>
+          <View style={styles.imageContainer}>
+            <Image 
+              source={{ uri: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80' }} 
+              style={styles.profileImage} 
+            />
+            <TouchableOpacity style={styles.editButton} activeOpacity={0.8} onPress={() => Alert.alert('Photo de profil', 'Changer la photo de profil')}>
+              <Ionicons name="camera" size={20} color="#FFFFFF" />
+            </TouchableOpacity>
+          </View>
+          <Text style={styles.profileName}>Chef NoGaspi</Text>
+          <Text style={styles.profileEmail}>chef@nogaspi.com</Text>
+        </View>
 
         <View style={styles.section}>
           <Text style={styles.sectionHeader}>Préférences</Text>
@@ -115,5 +132,49 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: colors.textPrimary,
     marginBottom: spacing.md,
+  },
+  profileHeaderSection: {
+    alignItems: 'center',
+    marginBottom: spacing.xl,
+    paddingTop: spacing.md,
+  },
+  imageContainer: {
+    position: 'relative',
+    marginBottom: spacing.md,
+  },
+  profileImage: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    borderWidth: 3,
+    borderColor: '#FFFFFF',
+  },
+  editButton: {
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    backgroundColor: '#D95D39',
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 3,
+    borderColor: '#FFFFFF',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 3.84,
+    elevation: 3,
+  },
+  profileName: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: colors.textPrimary,
+    marginBottom: 4,
+  },
+  profileEmail: {
+    fontSize: 14,
+    color: colors.textSecondary,
   },
 });

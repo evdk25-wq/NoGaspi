@@ -1,30 +1,31 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Platform } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Platform, ActivityIndicator } from 'react-native';
 import { IngredientChip } from '../components/IngredientChip';
 import { SearchBar } from '../components/SearchBar';
-import { INITIAL_INGREDIENTS } from '../../data/sources/mockIngredients';
+import { Ingredient } from '../../domain/entities/Ingredient';
+import { colors } from '../../core/theme';
 
 interface HomeScreenProps {
-  onGenerateRecipes?: () => void;
+  ingredients: Ingredient[];
+  selectedIngredients: string[];
+  searchQuery: string;
+  onSearchChange: (query: string) => void;
+  onToggleIngredient: (id: string) => void;
+  onGenerateRecipes: () => void;
+  maxSelection: number;
+  isLoading: boolean;
 }
 
-export const HomeScreen: React.FC<HomeScreenProps> = ({ onGenerateRecipes }) => {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedIngredients, setSelectedIngredients] = useState<string[]>([]);
-  const popularIngredients = INITIAL_INGREDIENTS; // Using the mock ones
-
-  const toggleIngredient = (id: string) => {
-    setSelectedIngredients(prev => {
-      if (prev.includes(id)) {
-        return prev.filter(item => item !== id);
-      }
-      if (prev.length < 6) {
-        return [...prev, id];
-      }
-      return prev;
-    });
-  };
-
+export const HomeScreen: React.FC<HomeScreenProps> = ({ 
+  ingredients, 
+  selectedIngredients, 
+  searchQuery, 
+  onSearchChange, 
+  onToggleIngredient, 
+  onGenerateRecipes,
+  maxSelection,
+  isLoading
+}) => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.header}>
@@ -32,33 +33,41 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onGenerateRecipes }) => 
       </View>
       <ScrollView contentContainerStyle={styles.content}>
         <Text style={styles.mainTitle}>Que vous reste-t-il ?</Text>
-        <Text style={styles.subtitle}>Ajoutez vos ingrédients (1 à 6).</Text>
+        <Text style={styles.subtitle}>Ajoutez vos ingrédients (1 à {maxSelection}).</Text>
         
         <Text style={styles.counterText}>
-          {selectedIngredients.length} / 6 INGRÉDIENTS SÉLECTIONNÉS
+          {selectedIngredients.length} / {maxSelection} INGRÉDIENTS SÉLECTIONNÉS
         </Text>
         
         <SearchBar
           value={searchQuery}
-          onChangeText={setSearchQuery}
+          onChangeText={onSearchChange}
           placeholder="Rechercher ou ajouter..."
         />
 
         <View style={styles.chipContainer}>
-          {popularIngredients.map(ingredient => (
+          {ingredients.map(ingredient => (
             <IngredientChip
               key={ingredient.id}
               name={ingredient.name}
               isSelected={selectedIngredients.includes(ingredient.id)}
-              onPress={() => toggleIngredient(ingredient.id)}
+              onPress={() => onToggleIngredient(ingredient.id)}
             />
           ))}
         </View>
       </ScrollView>
 
       <View style={styles.footerContainer}>
-        <TouchableOpacity style={styles.generateButton} onPress={onGenerateRecipes}>
-          <Text style={styles.generateButtonText}>Générer des recettes</Text>
+        <TouchableOpacity 
+          style={[styles.generateButton, selectedIngredients.length === 0 && styles.disabledButton]} 
+          onPress={onGenerateRecipes}
+          disabled={selectedIngredients.length === 0 || isLoading}
+        >
+          {isLoading ? (
+            <ActivityIndicator color="#FFFFFF" />
+          ) : (
+            <Text style={styles.generateButtonText}>Générer des recettes</Text>
+          )}
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -116,7 +125,7 @@ const styles = StyleSheet.create({
   generateButton: {
     backgroundColor: '#D95D39',
     paddingVertical: 16,
-    borderRadius: 12,
+    borderRadius: 30,
     alignItems: 'center',
     shadowColor: '#D95D39',
     shadowOffset: { width: 0, height: 4 },
@@ -128,5 +137,8 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 18,
     fontWeight: '700',
+  },
+  disabledButton: {
+    opacity: 0.5,
   }
 });
