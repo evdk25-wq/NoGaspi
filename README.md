@@ -19,49 +19,6 @@ NoGaspi is a mobile application designed to help you reduce food waste by genera
 *   **Icons:** Expo Vector Icons (Ionicons)
 *   **Animations:** Lottie React Native
 
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-*   Node.js
-*   npm or yarn
-*   Expo CLI
-
-## Installation
-
-1.  Clone the repository or download the source code.
-2.  Navigate to the project directory:
-    ```bash
-    cd NoGaspi
-    ```
-3.  Install the dependencies:
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-## Running the App
-
-To start the development server, run:
-
-```bash
-npm start
-# or
-yarn start
-```
-
-This will open the Expo developer tools in your browser. From there, you can:
-
-*   Run the app on an Android emulator or iOS simulator.
-*   Scan the QR code with the Expo Go app on your physical device to run it directly.
-
-Alternatively, you can start the app directly for a specific platform:
-
-*   **Android:** `npm run android`
-*   **iOS:** `npm run ios`
-*   **Web:** `npm run web`
-
 ## Project Structure
 
 *   `src/`: Main source code directory.
