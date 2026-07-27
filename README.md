@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="Accueil.jpeg" alt="Screen" width="28%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="menu.jpeg" alt="menu" width="28%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screen.jpeg" alt="search" width="28%" />
+</p>
+
+
+
+
 # NoGaspi
 
 NoGaspi is a mobile application designed to help you reduce food waste by generating delicious recipes based on the ingredients you already have at home. Select your available ingredients, and let the app suggest creative ways to use them up.
